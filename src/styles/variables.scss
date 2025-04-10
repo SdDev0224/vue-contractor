@@ -1,0 +1,42 @@
+// Import Bulma's core
+@import "~bulma/sass/utilities/initial-variables";
+@import "~bulma/sass/utilities/functions";
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Poppins:400,500,600,700');
+$family-sans-serif: 'Poppins', sans-serif;
+$family-primary: $family-sans-serif;
+
+// Breakpoints
+$fullhd: 1200px + (2 * $gap);
+
+
+// Form control overrides
+$label-weight: 500;
+$control-radius: 3px;
+$input-shadow:none;
+// End form control overrides
+
+$box-radius: $radius-small;
+
+// Navbar overrides
+// $navbar-height: 5rem;
+// $navbar-item-color: $grey;
+// $navbar-tab-active-border-bottom-color: #43a9e3;
+// $navbar-tab-hover-border-bottom-color: $grey;
+// $navbar-tab-active-color: $black;
+// $navbar-box-shadow-size: 0 2px 4px 0px;
+// $navbar-box-shadow-color: rgba(0, 0, 0, 0.05);
+// End navbar overrides
+
+// Table overrides
+$table-cell-border: none;
+$table-cell-padding:   1em 0.75em;
+$table-head-cell-border-width: 0px;
+// End table overrides
+
+@import "~bulma/sass/utilities/derived-variables";
+// Tabs override
+$tabs-link-active-color: $dark;
+$tabs-link-padding: 1rem .5rem;
+// End Tabs override
